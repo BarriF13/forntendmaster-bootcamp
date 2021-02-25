@@ -26,14 +26,15 @@ html {
 body {
   padding: 0;
   margin: 0;
+  background: rgb(235, 233, 233);
 }
 .wrapper {
   width: 400px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background: black;
   color: white;
   margin: 0 auto;
-  border-radius: 1rem;
+ box-shadow:2px 2px 20px  black;
 }
 .calc-button-row {
   /* border: 1px solid blue; */
@@ -55,6 +56,10 @@ body {
   height: 100px;
   flex-basis: 24.5%;
   margin-bottom: 0.5%;
+  cursor: pointer;
+}
+.calc-button:focus{
+outline: none;
 }
 .calc-button:hover {
   background: #ebebeb;
@@ -67,4 +72,12 @@ body {
 }
 .triple {
   flex-basis: 74.8%;
+}
+
+.calc-button:last-child{
+    background: #df974c;
+    color: #fff;
+}
+.calc-button:last-child:hover{
+    background: #dfb07e;
 }
