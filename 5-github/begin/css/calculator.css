@@ -1,0 +1,70 @@
+/* black: #000000
+
+white: #ffffff
+
+light grey: #d8d9db
+
+buttons on hover: #ebebeb
+
+button active state: #bbbcbe
+
+function buttons: #df974c
+
+function buttons on hover: #dfb07e
+
+function button active state: #dd8d37
+
+The overall width of this calculator is 400px. */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  width: 400px;
+  border: 1px solid red;
+  background: black;
+  color: white;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+.calc-button-row {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.screen {
+  text-align: right;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px 5px;
+  font-size: 2rem;
+}
+.calc-button {
+  background: #d8d9db;
+  color: black;
+  border: none;
+  font-size: 2rem;
+  height: 100px;
+  flex-basis: 24.5%;
+  margin-bottom: 0.5%;
+}
+.calc-button:hover {
+  background: #ebebeb;
+}
+.calc-button:active {
+  background: #bbbcbe;
+}
+.double {
+  flex-basis: 49.7%;
+}
+.triple {
+  flex-basis: 74.8%;
+}
