@@ -1,0 +1,48 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(#ffffcc, teal);
+ text-align: center;
+ padding: 50px;
+ 
+ font-family: sans-serif;
+}
+h1{
+color: teal;
+}
+img{
+  border: 5px solid teal;
+  border-radius: 10px;
+  margin: 40px 0;
+}
+blockquote{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3rem;
+}
+cite{
+  font-size: 2rem;
+}
+.bigbold{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+li{
+  list-style: none;
+}
+ul a{
+  text-decoration: none;
+  color: rgb(77, 114, 168);
+  font-weight: 600;
+  cursor: pointer;
+}
+a:hover{
+  background: rgb(165, 162, 162);
+  color: rgb(105, 165, 165);
+}
+a:visited{
+  color: rgb(185, 252, 172);
+}

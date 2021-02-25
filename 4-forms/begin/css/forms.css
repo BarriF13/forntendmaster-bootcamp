@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url(../img/galaxy.jpg), no-repeat;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background: rgb(236, 229, 161);
+border: 1px solid blueviolet;
+}
+p, [for="abtype"] {
+	margin-bottom: 0 ;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+fieldset{
+	border: 1px solid rgb(230, 202, 114);
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+legend{
+	font-weight: 700;
+	font-size: 1rem;
+	margin-top: 1rem;
+	display: block;
+
+}
+label{
+	/* border: 1px solid blueviolet; */
+	display: block;
+	margin-bottom: .5rem;
+}
+textarea{
+height: 10rem;
+padding: 1rem;
+border: none;
+border-radius: 1rem;
+}
+
+select{
+	font-size: 1rem;
+}
+button{
+	border-radius: 1rem;
+	font-size: 1.2rem;
+	margin: 1rem 0;
+	border:none;
+	padding: .5rem 1rem;
+	background: #fdd25c;
+	color: white;
+}
+button:hover{
+	color: brown;
+	background: white;
+
+}
+
+input:not([type="radio"]):not([type="checkbox"]), textarea, select{
+	border-radius: 1rem;
+	border: none;
+	padding: .5rem 1rem;
+	display: block;
+	margin-bottom: 1rem;
+	width: 20rem;
+}
+input:focus, select:focus{
+	outline: none;
+}
+
+#one{
+margin-bottom: 1rem;
+}
+
