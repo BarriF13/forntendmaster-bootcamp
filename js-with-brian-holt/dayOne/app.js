@@ -45,8 +45,7 @@ const timesToRepeat = 5;
 let myString=``;
 
 for(i=0; i<=timesToRepeat; i++){
- 
-  myString = myString+char;
+myString+=char;
  
 }
 console.log(myString)
