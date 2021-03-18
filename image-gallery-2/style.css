@@ -42,10 +42,12 @@
 }
 .swiper-slide{
   text-align: center;
+
 }
-.swiper-container {
+.swiper-container{
   width: 600px;
   height: 600px;
+
 }
 body{
   padding: 0;
@@ -57,10 +59,13 @@ body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   padding: 15px;
+  position: relative;
+  z-index: 5;
+
 }
 .brand{
   margin: 0;
   font-size: 50px;
   cursor: grab;
-  z-index: 200;
+  z-index: 10;
 }
