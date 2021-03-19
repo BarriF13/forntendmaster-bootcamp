@@ -1,3 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  text-align: center;
+}
+header {
+  margin-bottom: 10px;
+  background-color: teal;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+img {
+  border-radius: 10px;
+  margin: 0  auto;
+  width: 50%;
+}
+select{
+border: none;
+padding: 5px;
+margin-top: 5px;
+color: teal;
+border-radius: 5px;
+}
+select:focus{
+  outline: none;
+}
 @keyframes spin {
   from {
     transform: rotateZ(0deg);
@@ -12,7 +41,7 @@
   animation: spin 2s linear infinite;
   display: none;
 }
-.dog-img{
+.dog-img {
   display: none;
 }
 .show {

@@ -55,8 +55,13 @@ function getDoggo(url){
 fetch(url).then((res)=>res.json())
 .then((data)=> {
 img.src = data.message;
-spinner.classList.remove('show');
-img.classList.add('show');
+// spinner.classList.remove('show');
+// img.classList.add('show');
 
 })
 }
+img.addEventListener('load', ()=>{
+  spinner.classList.remove('show');
+img.classList.add('show');
+
+})
